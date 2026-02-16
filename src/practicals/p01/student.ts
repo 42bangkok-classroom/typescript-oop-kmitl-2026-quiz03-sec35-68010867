@@ -2,8 +2,8 @@ export class Student {
     firstname? : string ;
     lastname? : string ;
 
-    printName(){
-        console.log(this.firstname,this.lastname);
+    printName(): void{
+        console.log(this.firstname); console.log(this.lastname);
     }
 
 }
