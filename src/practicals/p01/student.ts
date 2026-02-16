@@ -3,8 +3,8 @@ export class Student {
     lastname? : string ;
     fullname? : string ;
 
-    printName(): void{
-        console.log(this.firstname+" "+this.lastname); 
+    printName() {
+        console.log(`${this.firstname} ${this.lastname}`);
     }
 
 }
