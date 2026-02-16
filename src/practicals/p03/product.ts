@@ -1,2 +1,12 @@
-export class Product {}
+export class Product {
+    name? : string;
+
+    getPrice(){
+        console.log(this.getPrice)
+
+    }
+    setPrice(){
+
+    }
+}
 
